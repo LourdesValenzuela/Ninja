@@ -45,11 +45,13 @@ class Sensei extends Ninja {
 }
 
 // Ejemplos de salida
-const superSensei = new Sensei("Master Splinter");
-superSensei.speakWisdom(); // Imprime el mensaje de sabiduría y aumenta la salud en 10
-superSensei.showStats();   // Muestra las estadísticas actualizadas del Sensei
-
 const ninja1 = new Ninja("Hyabusa");
 ninja1.sayName();
 ninja1.drinkSake();
 ninja1.showStats();
+
+const superSensei = new Sensei("Master Splinter");
+superSensei.speakWisdom(); // Imprime el mensaje de sabiduría y aumenta la salud en 10
+superSensei.showStats();   // Muestra las estadísticas actualizadas del Sensei
+
+
